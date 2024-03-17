@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Andre Martin Contact Me</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="CSS/contact.css" >
+		<link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+		<meta name="description" content="Info about how to contact Andre Martin!">
+		<meta name="keywords" content="andre, martin, Andre, Martin, contact, me, email">
+		<script src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+		<script src="resume.js" async defer></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="todays_date">
+				<img src="Images/favicon.ico"><p id="today"></p>
+			</div>
+			<div id="dark">
+				<ul>
+					<li><button id="darkMode"><img src="Images/dark_mode.png" alt="A picture of the moon"></button></li>
+					<li><button id="lightMode" hidden><img src="Images/light_mode.png" alt="A picture of the sun"></button></li>
+				</ul>
+			</div>
+			<header>
+				<h1>Contact Me</h1>
+			</header>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="education.html">Education</a></li>
+					<li><a href="work.html">Work Experience</a></li>
+					<li><a href="volunteer.html">Volunteer Experience</a></li>
+					<li><a class="active" href="contact.html">Contact Me</a></li>
+				</ul>
+			</nav>
+			<main>
+				<h2>Contact Me</h2>
+				<form>
+					<fieldset class="field_set">
+						<legend>User Information</legend>
+						<label>
+							<textarea name="subject" id="subject" placeholder="Subject" tabindex="1"></textarea>
+						</label>
+						<label>
+							First Name: <br>
+							<input type="text" name="firstName" id="firstName" tabindex="2"> <br>
+						</label>
+						<label>
+							Last Name: <br>
+							<input type="text" name="lastName" id="lastName" tabindex="3"> <br>
+						</label>
+						<label>
+							E-mail: <br>
+							<input type="text" name="e-mail" id="e-mail" tabindex="4"> <br>
+						</label>
+						<label>
+							<input type="submit" name="submit" id="submit" tabindex="5">
+						</label>
+						<label>
+							<input type="reset" name="reset" id="reset" tabindex="6">
+						</label>
+					</fieldset>
+				</form>
+				<p>
+					<a href="mailto:r.andre@live.ca">r.andre@live.ca</a> <br>
+					<a href="mailto:amartin21@mylangara.ca">amartin21@mylangara.ca</a> <br>
+					<a href="https://github.com/Andre-Martin">GitHub</a>
+				</p>
+				<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="andremartin77" data-version="v1">
+					<a class="badge-base__link LI-simple-link" href="https://ca.linkedin.com/in/andremartin77?trk=profile-badge" target="_blank"></a>
+				</div>
+			</main>
+			<aside>
+				<img src="Images/contact_image.jpg" alt="A picture of Andre in a suit">
+			</aside>
+			<footer>
+				Copyright &copy; <script>document.write(new Date().getFullYear())</script> Andre Martin
+			</footer>
+		</div>
+	</body>
+</html>
