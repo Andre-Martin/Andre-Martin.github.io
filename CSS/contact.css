@@ -207,8 +207,8 @@ nav a {
 }
 
 nav li a.active {
-    background-color: #FCF55F;
-    color: #FF5F1F;
+    background-color: #FF5F1F;
+    color: white;
     transition: background-color 800ms ease;
 }
   

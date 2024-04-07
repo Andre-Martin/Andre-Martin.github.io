@@ -210,8 +210,8 @@ nav a {
 }
 
 nav li a.active {
-    background-color: #FCF55F;
-    color: #FF5F1F;
+    background-color: #FF5F1F;
+    color: white;
 }
   
 nav li a:hover:not(.active) {
